@@ -1,0 +1,25 @@
+name: newland_amc
+description: A Flutter plugin providing a Dart interface for Newland Android Mobile Computer (AMC) devices to interact with barcode scanning functionality.
+version: 0.1.0
+homepage: https://github.com/theiskaa/newland_amc
+
+environment:
+  sdk: ^3.5.3
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.newland_amc
+        pluginClass: NewlandAmcPlugin
